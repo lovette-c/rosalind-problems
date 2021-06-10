@@ -1,14 +1,11 @@
-dataset = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
+DNA = open('dataset.txt').read()
+#opens dataset text file and reads it
 
-A = dataset.count('A')
-C = dataset.count('C')
-G = dataset.count('G')
-T = dataset.count('T')
+print(DNA.count('A'), DNA.count('C'), DNA.count('G'), DNA.count('T'))
 
-print("A:", A, "C:", C, "G:", G, "T:", T)
             
-#wanted to do something where you import dataset as a .txt file instead of pasting it 
-#tried importing dataset but fn wouldn't work after importing...
+
+
 
 
 
